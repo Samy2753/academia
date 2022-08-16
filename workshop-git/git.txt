@@ -1,0 +1,61 @@
+config
+config --global
+config --local
+
+-- WORKSHOP
+init
+clone
+
+status
+status --short
+
+add --all
+add <filename>
+
+commit
+commit -m
+commit -am
+commit --amend
+
+push origin master
+pull origin master
+
+log
+log --oneline
+
+checkout -- <filename>
+checkout -b [new branch]
+branch
+checkout [branch]
+merge [branch]
+
+-- ADVANCED
+diff
+diff <filepath>
+diff --staged
+
+remote
+remote -v
+remote add
+
+ls-files
+ls-remote [remote]
+
+log --patch --color-words
+log --stat
+log --author "name"
+log --since [number of days].days.ago
+reflog
+
+revert
+
+reset
+reset --hard
+reset --soft
+
+---
+
+rm
+mv
+
+clean -f

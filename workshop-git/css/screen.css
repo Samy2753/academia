@@ -1,0 +1,33 @@
+h1{
+	
+}
+
+h1{
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: right top;	
+	background-size: auto 100%;
+	font-size: 2.5em;	
+}
+
+h1 span{
+	display: none;
+}
+
+h2{
+	border-bottom: 1px solid #333;
+	font-size: 1.5em;
+}
+
+p, li{
+	color: #333;
+}
+
+.content h2{
+	border: 0;
+	text-align: right;
+}
+
+.btn{
+	border: 2px solid #333;
+}
